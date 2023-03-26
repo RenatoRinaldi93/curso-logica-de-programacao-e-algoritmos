@@ -2,6 +2,11 @@ package exercicios_vetores;
 
 import java.util.Scanner;
 
+/*
+   Fazer um programa para ler um conjunto de nomes de pessoas e suas 
+   respectivas idades. Depois, mostrar na tela o nome da pessoa mais velha.
+ */
+
 public class Exercicio6 {
 
 	public static void main(String[] args) {

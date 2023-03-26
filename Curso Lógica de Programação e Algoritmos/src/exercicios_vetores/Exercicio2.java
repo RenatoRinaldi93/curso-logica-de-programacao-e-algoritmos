@@ -2,6 +2,13 @@ package exercicios_vetores;
 
 import java.util.Scanner;
 
+/*
+ Faça um programa que leia N números inteiros e armazene-os em um vetor. 
+ Em seguida, mostre na tela:
+		- todos os números pares
+		- a quantidade de números pares
+ */
+
 public class Exercicio2 {
 
 	public static void main(String[] args) {

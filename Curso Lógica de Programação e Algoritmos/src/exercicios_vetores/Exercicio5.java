@@ -3,6 +3,11 @@ package exercicios_vetores;
 import java.util.Locale;
 import java.util.Scanner;
 
+/*
+ 	Fazer um programa para ler um vetor de N números inteiros. 
+ 	Em seguida, mostrar na tela a média aritmética somente dos números pares lidos.
+ */
+
 public class Exercicio5 {
 
 	public static void main(String[] args) {
