@@ -28,10 +28,21 @@ public class Exercicio7 {
 		int ultimoDaFila = fila[girarFila][N-1];
 		
 		
+		// move todos da fila (menos o último) para a direita, em contagem decrescente
+		for(int j=N-1; j>0; j--) {
+			fila[girarFila][j] = fila[girarFila][j-1];
+		}
+		
+		// armazena o último na primeira posição da fila
+		fila[girarFila][0] = ultimoDaFila;
+		
+		
+		// imprime a matriz alterada
 		for(int i=0; i<M; i++) {
 			for(int j=0; j<N; j++) {
-				System.out.print( + " ");
+				System.out.print(fila[i][j] + " ");
 			}
+			System.out.println();
 		}
 		
 		input.close();
